@@ -4,7 +4,7 @@ import time
 # Setup the GPIO pins
 red_pin = 17  # Replace with the actual GPIO pin numbers you're using
 green_pin = 18
-blue_pin = 27
+blue_pin = 28
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(red_pin, GPIO.OUT)
